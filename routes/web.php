@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/property-details', 'Property_details@index'); 
+Route::get('/form-validation', 'Property_details@form_validation'); 

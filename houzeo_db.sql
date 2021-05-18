@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2021 at 11:34 PM
+-- Generation Time: May 18, 2021 at 06:31 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.2.34
 
@@ -105,16 +105,16 @@ INSERT INTO `assigned_tasks` (`id`, `assignor_id`, `assignee_id`, `house_id`, `m
 (23, 34, 11, 16, NULL, 2, NULL, 0, 0, 'Share via Facebook', 'Takes 1 min to complete. Let\'s start', NULL, 'Share on Facebook', NULL, 'Mark as Complete', 'Save for Later', NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, 0, NULL, '2018-11-14 22:33:26', '2018-11-14 22:39:47', NULL, NULL, NULL, NULL),
 (24, 34, 11, 16, NULL, 2, NULL, 0, 0, 'Share via Twitter', 'Takes 1 min to complete. Let\'s start', NULL, 'Share on Twitter', NULL, 'Mark as Complete', 'Save for Later', NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, 0, NULL, '2018-11-14 22:33:26', '2018-11-14 22:38:58', NULL, NULL, NULL, NULL),
 (25, 33, 11, 16, NULL, 1, NULL, 0, 0, 'Houzeo Relationship Agreement & Disclosures', 'Takes 3 mins to complete. Let\'s start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-16 09:29:03', '2018-12-31 13:09:02', NULL, NULL, NULL, NULL),
-(26, 846, 568, 3166, NULL, 3, NULL, 0, 0, 'Federal Lead Paint Disclosure', 'Takes 5 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-16 09:29:03', '2018-12-31 13:09:11', NULL, NULL, NULL, NULL),
-(27, 295, 847, 3172, NULL, 1, NULL, 0, 0, 'Houzeo Relationship Agreement & Disclosures', 'Takes 3 mins to complete. Let\'s start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-21 06:13:56', '2018-11-21 07:26:39', NULL, NULL, NULL, NULL),
-(28, 295, 847, 3172, NULL, 3, NULL, 0, 0, 'Federal Lead Paint Disclosure', 'Takes 5 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-21 06:13:56', '2018-11-21 06:13:56', NULL, NULL, NULL, NULL),
-(29, 296, 568, 3148, NULL, 1, NULL, 0, 0, 'Houzeo Relationship Agreement & Disclosures', 'Takes 3 mins to complete. Let\'s start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:47:23', NULL, NULL, NULL, NULL),
-(30, 296, 568, 3148, NULL, 1, NULL, 0, 0, 'Listing Agreement', 'Takes 3 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:47:42', NULL, NULL, NULL, NULL),
-(31, 296, 568, 3148, NULL, 1, NULL, 0, 0, 'Agency Disclosure', 'Takes 3 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:47:53', NULL, NULL, NULL, NULL),
-(32, 296, 568, 3148, NULL, 1, NULL, 0, 0, 'MLS Data Input Single Family Home', 'Takes 30 minutes to complete. Let’s start', NULL, 'Launch Now', 'Use your Houzeo listing and data from Zillow, Redfin, and your tax records to fill this form quicker*Leave the fields you don\'t know the answer to blank. The agent will follow-up if they need additional info from you*The more you can fill, the better. It\'ll reduce back and forth and get your listing live faster*If there are multiple parties listed on the title, each one needs to sign these documents.', 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:48:02', NULL, NULL, NULL, NULL),
-(33, 296, 568, 3148, NULL, 1, NULL, 0, 0, 'North Carolina Required Property Sketch', 'Takes between 5 mins to 1 hour to complete.', 'Please measure your home and draft it on a sheet of paper or if you have a copy of your appraisal, attach the measurement page. Here\'s a link to show you how to measure, calculate and sketch your square footage', 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:48:17', NULL, NULL, NULL, NULL),
-(34, 296, 568, 3148, NULL, 3, NULL, 0, 0, 'Federal Lead Paint Disclosure', 'Takes 5 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:50:12', NULL, NULL, NULL, NULL),
-(35, 296, 568, 3148, NULL, 3, NULL, 0, 0, 'NC - Residential Property and Owners Association Disclosure', 'Takes approximately 30 minutes to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:50:56', NULL, NULL, NULL, NULL);
+(26, 1, 12, 40, NULL, 3, NULL, 0, 0, 'Federal Lead Paint Disclosure', 'Takes 5 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-16 09:29:03', '2018-12-31 13:09:11', NULL, NULL, NULL, NULL),
+(27, 2, 12, 41, NULL, 1, NULL, 0, 0, 'Houzeo Relationship Agreement & Disclosures', 'Takes 3 mins to complete. Let\'s start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-21 06:13:56', '2018-11-21 07:26:39', NULL, NULL, NULL, NULL),
+(28, 3, 25, 31, NULL, 3, NULL, 0, 0, 'Federal Lead Paint Disclosure', 'Takes 5 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-21 06:13:56', '2018-11-21 06:13:56', NULL, NULL, NULL, NULL),
+(29, 4, 14, 55, NULL, 1, NULL, 0, 0, 'Houzeo Relationship Agreement & Disclosures', 'Takes 3 mins to complete. Let\'s start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:47:23', NULL, NULL, NULL, NULL),
+(30, 5, 16, 44, NULL, 1, NULL, 0, 0, 'Listing Agreement', 'Takes 3 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:47:42', NULL, NULL, NULL, NULL),
+(31, 6, 18, 54, NULL, 1, NULL, 0, 0, 'Agency Disclosure', 'Takes 3 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:47:53', NULL, NULL, NULL, NULL),
+(32, 7, 19, 53, NULL, 1, NULL, 0, 0, 'MLS Data Input Single Family Home', 'Takes 30 minutes to complete. Let’s start', NULL, 'Launch Now', 'Use your Houzeo listing and data from Zillow, Redfin, and your tax records to fill this form quicker*Leave the fields you don\'t know the answer to blank. The agent will follow-up if they need additional info from you*The more you can fill, the better. It\'ll reduce back and forth and get your listing live faster*If there are multiple parties listed on the title, each one needs to sign these documents.', 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:48:02', NULL, NULL, NULL, NULL),
+(33, 7, 20, 52, NULL, 1, NULL, 0, 0, 'North Carolina Required Property Sketch', 'Takes between 5 mins to 1 hour to complete.', 'Please measure your home and draft it on a sheet of paper or if you have a copy of your appraisal, attach the measurement page. Here\'s a link to show you how to measure, calculate and sketch your square footage', 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:48:17', NULL, NULL, NULL, NULL),
+(34, 8, 21, 52, NULL, 3, NULL, 0, 0, 'Federal Lead Paint Disclosure', 'Takes 5 mins to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:50:12', NULL, NULL, NULL, NULL),
+(35, 9, 22, 51, NULL, 3, NULL, 0, 0, 'NC - Residential Property and Owners Association Disclosure', 'Takes approximately 30 minutes to complete. Let\'s Start', NULL, 'Launch Now', NULL, 'Mark as Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '3', 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, NULL, NULL, NULL, 0, NULL, '2018-11-26 14:03:25', '2018-12-14 15:50:56', NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -181,6 +181,62 @@ CREATE TABLE `property_images` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `property_images`
+--
+
+INSERT INTO `property_images` (`id`, `house_id`, `user_id`, `img_name`, `primary_image`, `image_caption`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, '1620942066.jpg', '1620942066.jpg', 'Image Caption 0', '2018-06-12 23:11:33', '2018-06-12 23:11:33'),
+(2, 2, 2, '1620942066.jpg', '1620942066.jpg', 'Image Caption 1', '2017-08-02 00:54:20', '2017-08-02 00:54:20'),
+(3, 3, 2, '1620942066.jpg', '1620942066.jpg', 'Image Caption 2', '2017-10-31 20:44:34', '2017-10-31 20:44:34'),
+(4, 4, 3, '1620942066.jpg', '1620942066.jpg', 'Image Caption 3', '2017-11-11 01:55:36', '2017-11-11 01:55:36'),
+(5, 5, 3, '1620942066.jpg', '1620942066.jpg', 'Image Caption 4', '2017-11-17 03:07:32', '2017-11-17 03:07:32'),
+(6, 6, 3, '1620942066.jpg', '1620942066.jpg', 'Image Caption 5', '2017-11-29 19:36:58', '2017-11-29 19:36:58'),
+(7, 7, 4, '1620942066.jpg', '1620942066.jpg', 'Image Caption 6', '2017-12-06 05:03:44', '2017-12-06 05:03:44'),
+(8, 8, 5, '1620942066.jpg', '1620942066.jpg', 'Image Caption 7', '2017-12-09 02:56:57', '2017-12-09 02:56:57'),
+(9, 9, 6, '1620942066.jpg', '1620942066.jpg', 'Image Caption 8', '2017-12-11 01:58:45', '2017-12-11 01:58:45'),
+(10, 10, 7, '1620942066.jpg', '1620942066.jpg', 'Image Caption 9', '2017-12-11 11:01:05', '2017-12-11 11:01:05'),
+(11, 11, 7, '1620942066.jpg', '1620942066.jpg', 'Image Caption 10', '2017-12-17 21:54:40', '2017-12-17 21:54:40'),
+(12, 12, 8, '1620942066.jpg', '1620942066.jpg', 'Image Caption 11', '2017-12-17 22:32:43', '2017-12-17 22:32:43'),
+(13, 13, 9, '1620942066.jpg', '1620942066.jpg', 'Image Caption 12', '2017-12-18 20:17:21', '2017-12-18 20:17:21'),
+(14, 14, 1, '1620942066.jpg', '1620942066.jpg', 'Image Caption 13', '2017-12-19 23:46:03', '2017-12-19 23:46:03'),
+(15, 15, 10, '1620942066.jpg', '1620942066.jpg', 'Image Caption 14', '2017-12-21 06:53:18', '2017-12-21 06:53:18'),
+(16, 16, 11, '1620942066.jpg', '1620942066.jpg', 'Image Caption 15', '2017-12-27 19:33:30', '2017-12-27 19:33:30'),
+(17, 17, 12, '1620942066.jpg', '1620942066.jpg', 'Image Caption 16', '2018-01-07 22:32:40', '2018-01-07 22:32:40'),
+(18, 18, 13, '1620942066.jpg', '1620942066.jpg', 'Image Caption 17', '2018-01-10 02:12:23', '2018-01-10 02:12:23'),
+(19, 19, 16, '1620942066.jpg', '1620942066.jpg', 'Image Caption 18', '2018-01-10 06:47:58', '2018-01-10 06:47:58'),
+(20, 20, 18, '1620942066.jpg', '1620942066.jpg', 'Image Caption 19', '2018-01-10 06:51:11', '2018-01-10 06:51:11'),
+(21, 21, 18, '1620942066.jpg', '1620942066.jpg', 'Image Caption 20', '2018-01-11 07:27:50', '2018-01-11 07:27:50'),
+(22, 22, 10, '1620942066.jpg', '1620942066.jpg', 'Image Caption 21', '2018-01-12 22:38:58', '2018-01-12 22:38:58'),
+(23, 23, 1, '1620942066.jpg', '1620942066.jpg', 'Image Caption 22', '2018-01-17 03:25:30', '2018-01-17 03:25:30'),
+(24, 24, 3, '1620942066.jpg', '1620942066.jpg', 'Image Caption 23', '2018-01-21 10:10:41', '2018-01-21 10:10:41'),
+(25, 25, 25, '1620942066.jpg', '1620942066.jpg', 'Image Caption 24', '2018-01-24 09:37:42', '2018-01-24 09:37:42'),
+(26, 26, 328, '1620942066.jpg', '1620942066.jpg', 'Image Caption 25', '2018-01-26 05:25:50', '2018-01-26 05:25:50'),
+(27, 27, 334, '1620942066.jpg', '1620942066.jpg', 'Image Caption 26', '2018-02-12 03:24:25', '2018-02-12 03:24:25'),
+(28, 28, 335, '1620942066.jpg', '1620942066.jpg', 'Image Caption 27', '2018-02-12 04:42:07', '2018-02-12 04:42:07'),
+(29, 29, 336, '1620942066.jpg', '1620942066.jpg', 'Image Caption 28', '2018-02-13 09:23:11', '2018-02-13 09:23:11'),
+(30, 30, 340, '1620942066.jpg', '1620942066.jpg', 'Image Caption 29', '2018-02-21 07:07:57', '2018-02-21 07:07:57'),
+(31, 31, 341, '1620942066.jpg', '1620942066.jpg', 'Image Caption 30', '2018-02-22 09:30:15', '2018-02-22 09:30:15'),
+(32, 32, 342, '1620942066.jpg', '1620942066.jpg', 'Image Caption 31', '2018-02-24 22:47:03', '2018-02-24 22:47:03'),
+(33, 33, 343, '1620942066.jpg', '1620942066.jpg', 'Image Caption 32', '2018-02-25 03:28:14', '2018-02-25 03:28:14'),
+(34, 34, 343, '1620942066.jpg', '1620942066.jpg', 'Image Caption 33', '2018-02-25 03:34:20', '2018-02-25 03:34:20'),
+(35, 35, 343, '1620942066.jpg', '1620942066.jpg', 'Image Caption 34', '2018-02-25 03:35:08', '2018-02-25 03:35:08'),
+(36, 36, 343, '1620942066.jpg', '1620942066.jpg', 'Image Caption 35', '2018-02-25 03:53:23', '2018-02-25 03:53:23'),
+(37, 37, 345, '1620942066.jpg', '1620942066.jpg', 'Image Caption 36', '2018-02-27 03:02:13', '2018-02-27 03:02:13'),
+(38, 38, 345, '1620942066.jpg', '1620942066.jpg', 'Image Caption 37', '2018-02-27 03:05:48', '2018-02-27 03:05:48'),
+(39, 39, 347, '1620942066.jpg', '1620942066.jpg', 'Image Caption 38', '2018-03-03 21:06:56', '2018-03-03 21:06:56'),
+(40, 41, 347, '1620942066.jpg', '1620942066.jpg', 'Image Caption 39', '2018-03-03 21:54:42', '2018-03-03 21:54:42'),
+(41, 42, 350, '1620942066.jpg', '1620942066.jpg', 'Image Caption 40', '2018-03-09 16:18:53', '2018-03-09 16:18:53'),
+(42, 43, 351, '1620942066.jpg', '1620942066.jpg', 'Image Caption 41', '2018-03-12 22:56:35', '2018-03-12 22:56:35'),
+(43, 44, 356, '1620942066.jpg', '1620942066.jpg', 'Image Caption 42', '2018-03-17 21:20:59', '2018-03-17 21:20:59'),
+(44, 45, 357, '1620942066.jpg', '1620942066.jpg', 'Image Caption 43', '2018-03-19 01:51:38', '2018-03-19 01:51:38'),
+(45, 46, 358, '1620942066.jpg', '1620942066.jpg', 'Image Caption 44', '2018-03-20 08:54:58', '2018-03-20 08:54:58'),
+(46, 47, 354, '1620942066.jpg', '1620942066.jpg', 'Image Caption 45', '2018-03-24 19:59:36', '2018-03-24 19:59:36'),
+(47, 48, 250, '1620942066.jpg', '1620942066.jpg', 'Image Caption 46', '2018-03-24 21:42:18', '2018-03-24 21:42:18'),
+(48, 49, 359, '1620942066.jpg', '1620942066.jpg', 'Image Caption 47', '2018-03-24 23:16:12', '2018-03-24 23:16:12'),
+(49, 50, 361, '1620942066.jpg', '1620942066.jpg', 'Image Caption 48', '2018-03-27 11:29:46', '2018-03-27 11:29:46'),
+(50, 51, 362, '1620942066.jpg', '1620942066.jpg', 'Image Caption 49', '2018-03-28 09:19:56', '2018-03-28 09:19:56');
 
 -- --------------------------------------------------------
 
@@ -334,32 +390,32 @@ INSERT INTO `property_location` (`house_id`, `user_id`, `property_type`, `street
 (22, 10, 'sell', '79 Angus Run', 'Seneca', 'SC', 'Oconee County', '29672', NULL, 34.7026988, -82.9943485, 0, 1, '2018-01-12 22:38:58', '2018-01-12 22:38:58'),
 (23, 1, 'sell', '5 Via Meseta', 'Rancho Santa Margarita', 'CA', 'Orange County', '92688', NULL, 33.6415856, -117.5879345, 0, 1, '2018-01-17 03:25:30', '2018-01-17 03:25:30'),
 (24, 3, 'sell', '2304 Horseshoe Cir', 'Longmont', 'CO', 'Weld County', '80504', NULL, 40.267121, -105.111195, 0, 1, '2018-01-21 10:10:41', '2018-01-21 10:10:41'),
-(25, 25, 'sell', '140 Bay St Apt 6D', 'Jersey City', 'NJ', 'Hudson County', '07302', NULL, 40.7208885, -74.0391533, 0, 1, '2018-01-24 09:37:42', '2018-01-24 09:37:42'),
-(26, 328, 'sell', '1334 Beechfern Cir', 'Elgin', 'SC', 'Kershaw County', '29045', NULL, 34.1272736, -80.8395301, 0, 1, '2018-01-26 05:25:50', '2018-01-26 05:25:50'),
-(27, 334, 'sell', '7845 100th Ave', 'Vero Beach', 'FL', 'Indian River County', '32967', NULL, 27.7370687, -80.5321898, 0, 1, '2018-02-12 03:24:25', '2018-02-12 03:24:25'),
-(28, 335, 'sell', '4249 Cumorah Ave', 'Center Valley', 'PA', 'Lehigh County', '18034', NULL, 40.530609, -75.4051646, 0, 1, '2018-02-12 04:42:07', '2018-02-12 04:42:07'),
-(29, 336, 'sell', '17 Dellwood Rd', 'Edison', 'NJ', 'Middlesex County', '08820', NULL, 40.5598356, -74.3418387, 0, 1, '2018-02-13 09:23:11', '2018-02-13 09:23:11'),
-(30, 340, 'sell', '2 Tarleton Ln', 'Bella Vista', 'AR', 'Benton County', '72715', NULL, 36.428658, -94.247468, 0, 1, '2018-02-21 07:07:57', '2018-02-21 07:07:57'),
-(31, 341, 'sell', '109 Foliage View Rd', 'Alabaster', 'AL', 'Shelby County', '35007', NULL, 33.1913848, -86.8434811, 0, 1, '2018-02-22 09:30:15', '2018-02-22 09:30:15'),
-(32, 342, 'sell', '3299 Cambridge Ave Apt 3G', 'Bronx', 'NY', 'Bronx County', '10463', NULL, 40.8850633, -73.90847149999999, 0, 1, '2018-02-24 22:47:03', '2018-02-24 22:47:03'),
-(33, 343, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:28:14', '2018-02-25 03:28:14'),
-(34, 343, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:34:20', '2018-02-25 03:34:20'),
-(35, 343, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:35:08', '2018-02-25 03:35:08'),
-(36, 343, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:53:23', '2018-02-25 03:53:23'),
-(37, 345, 'sell', '201 Raven Top Dr', 'Penrose', 'NC', 'Transylvania County', '28766', NULL, 35.22867, -82.61825069999999, 0, 1, '2018-02-27 03:02:13', '2018-02-27 03:02:13'),
-(38, 345, 'sell', '201 Raven Top Dr', 'Penrose', 'NC', 'Transylvania County', '28766', NULL, 35.22867, -82.61825069999999, 0, 1, '2018-02-27 03:05:48', '2018-02-27 03:05:48'),
-(39, 347, 'sell', '4632 Sharon View Rd', 'Charlotte', 'NC', 'Mecklenburg County', '28226', NULL, 35.1383304, -80.80457849999999, 0, 1, '2018-03-03 21:06:56', '2018-03-03 21:06:56'),
-(41, 347, 'sell', '4632 Sharon View Rd', 'Charlotte', 'NC', 'Mecklenburg County', '28226', NULL, 35.1383304, -80.80457849999999, 0, 1, '2018-03-03 21:54:42', '2018-03-03 21:54:42'),
-(42, 350, 'sell', '117 Sion Ct', 'Rocky Mount', 'NC', 'Nash County', '27803', NULL, 35.9510846, -77.8637272, 0, 1, '2018-03-09 16:18:53', '2018-03-09 16:18:53'),
-(43, 351, 'sell', '24 Robert Treat D', 'bridgeport', 'DE', 'New Haven County', '06460', NULL, 41.2280865, -72.9982787, 0, 1, '2018-03-12 22:56:35', '2018-03-12 22:56:35'),
-(44, 356, 'sell', '400 Brookside Dr Unit E', 'Andover', 'MA', 'Essex County', '01810', NULL, 42.68645739999999, -71.1964796, 0, 1, '2018-03-17 21:20:59', '2018-03-17 21:20:59'),
-(45, 357, 'sell', '50 Avery Park Dr', 'North Andover', 'MA', 'Essex County', '01845', NULL, 42.6375245, -71.05444279999999, 0, 1, '2018-03-19 01:51:38', '2018-03-19 01:51:38'),
-(46, 358, 'sell', 'N S 1 Dr', 'Wallace', 'MI', 'Menominee County', '11224', NULL, 45.2542727, -87.69524899999999, 0, 1, '2018-03-20 08:54:58', '2018-03-20 08:54:58'),
-(47, 354, 'sell', '73 Chestnut Ave', 'Closter', 'NJ', 'Bergen County', '07624', NULL, 40.965249, -73.951236, 0, 1, '2018-03-24 19:59:36', '2018-03-24 19:59:36'),
-(48, 250, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-03-24 21:42:18', '2018-03-24 21:42:18'),
-(49, 359, 'sell', '190 Newport Rd', 'Hull', 'MA', 'Plymouth County', '02045', NULL, 42.28160159999999, -70.8778859, 0, 1, '2018-03-24 23:16:12', '2018-03-24 23:16:12'),
-(50, 361, 'sell', '814 Latimer St', 'York', 'PA', 'York County', '17404', NULL, 39.9743209, -76.7310899, 0, 1, '2018-03-27 11:29:46', '2018-03-27 11:29:46'),
-(51, 362, 'sell', '305 Hawk View Ct', 'Nashville', 'TN', 'Davidson County', '37207', NULL, 36.246713, -86.774194, 0, 1, '2018-03-28 09:19:56', '2018-03-28 09:19:56');
+(25, 19, 'sell', '140 Bay St Apt 6D', 'Jersey City', 'NJ', 'Hudson County', '07302', NULL, 40.7208885, -74.0391533, 0, 1, '2018-01-24 09:37:42', '2018-01-24 09:37:42'),
+(26, 20, 'sell', '1334 Beechfern Cir', 'Elgin', 'SC', 'Kershaw County', '29045', NULL, 34.1272736, -80.8395301, 0, 1, '2018-01-26 05:25:50', '2018-01-26 05:25:50'),
+(27, 21, 'sell', '7845 100th Ave', 'Vero Beach', 'FL', 'Indian River County', '32967', NULL, 27.7370687, -80.5321898, 0, 1, '2018-02-12 03:24:25', '2018-02-12 03:24:25'),
+(28, 22, 'sell', '4249 Cumorah Ave', 'Center Valley', 'PA', 'Lehigh County', '18034', NULL, 40.530609, -75.4051646, 0, 1, '2018-02-12 04:42:07', '2018-02-12 04:42:07'),
+(29, 22, 'sell', '17 Dellwood Rd', 'Edison', 'NJ', 'Middlesex County', '08820', NULL, 40.5598356, -74.3418387, 0, 1, '2018-02-13 09:23:11', '2018-02-13 09:23:11'),
+(30, 23, 'sell', '2 Tarleton Ln', 'Bella Vista', 'AR', 'Benton County', '72715', NULL, 36.428658, -94.247468, 0, 1, '2018-02-21 07:07:57', '2018-02-21 07:07:57'),
+(31, 24, 'sell', '109 Foliage View Rd', 'Alabaster', 'AL', 'Shelby County', '35007', NULL, 33.1913848, -86.8434811, 0, 1, '2018-02-22 09:30:15', '2018-02-22 09:30:15'),
+(32, 25, 'sell', '3299 Cambridge Ave Apt 3G', 'Bronx', 'NY', 'Bronx County', '10463', NULL, 40.8850633, -73.90847149999999, 0, 1, '2018-02-24 22:47:03', '2018-02-24 22:47:03'),
+(33, 26, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:28:14', '2018-02-25 03:28:14'),
+(34, 26, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:34:20', '2018-02-25 03:34:20'),
+(35, 27, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:35:08', '2018-02-25 03:35:08'),
+(36, 27, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-02-25 03:53:23', '2018-02-25 03:53:23'),
+(37, 27, 'sell', '201 Raven Top Dr', 'Penrose', 'NC', 'Transylvania County', '28766', NULL, 35.22867, -82.61825069999999, 0, 1, '2018-02-27 03:02:13', '2018-02-27 03:02:13'),
+(38, 27, 'sell', '201 Raven Top Dr', 'Penrose', 'NC', 'Transylvania County', '28766', NULL, 35.22867, -82.61825069999999, 0, 1, '2018-02-27 03:05:48', '2018-02-27 03:05:48'),
+(39, 28, 'sell', '4632 Sharon View Rd', 'Charlotte', 'NC', 'Mecklenburg County', '28226', NULL, 35.1383304, -80.80457849999999, 0, 1, '2018-03-03 21:06:56', '2018-03-03 21:06:56'),
+(41, 28, 'sell', '4632 Sharon View Rd', 'Charlotte', 'NC', 'Mecklenburg County', '28226', NULL, 35.1383304, -80.80457849999999, 0, 1, '2018-03-03 21:54:42', '2018-03-03 21:54:42'),
+(42, 28, 'sell', '117 Sion Ct', 'Rocky Mount', 'NC', 'Nash County', '27803', NULL, 35.9510846, -77.8637272, 0, 1, '2018-03-09 16:18:53', '2018-03-09 16:18:53'),
+(43, 28, 'sell', '24 Robert Treat D', 'bridgeport', 'DE', 'New Haven County', '06460', NULL, 41.2280865, -72.9982787, 0, 1, '2018-03-12 22:56:35', '2018-03-12 22:56:35'),
+(44, 28, 'sell', '400 Brookside Dr Unit E', 'Andover', 'MA', 'Essex County', '01810', NULL, 42.68645739999999, -71.1964796, 0, 1, '2018-03-17 21:20:59', '2018-03-17 21:20:59'),
+(45, 28, 'sell', '50 Avery Park Dr', 'North Andover', 'MA', 'Essex County', '01845', NULL, 42.6375245, -71.05444279999999, 0, 1, '2018-03-19 01:51:38', '2018-03-19 01:51:38'),
+(46, 29, 'sell', 'N S 1 Dr', 'Wallace', 'MI', 'Menominee County', '11224', NULL, 45.2542727, -87.69524899999999, 0, 1, '2018-03-20 08:54:58', '2018-03-20 08:54:58'),
+(47, 30, 'sell', '73 Chestnut Ave', 'Closter', 'NJ', 'Bergen County', '07624', NULL, 40.965249, -73.951236, 0, 1, '2018-03-24 19:59:36', '2018-03-24 19:59:36'),
+(48, 30, 'sell', '18206 Elkwood St', 'Reseda', 'CA', 'Los Angeles County', '91335', NULL, 34.212462, -118.5297973, 0, 1, '2018-03-24 21:42:18', '2018-03-24 21:42:18'),
+(49, 31, 'sell', '190 Newport Rd', 'Hull', 'MA', 'Plymouth County', '02045', NULL, 42.28160159999999, -70.8778859, 0, 1, '2018-03-24 23:16:12', '2018-03-24 23:16:12'),
+(50, 32, 'sell', '814 Latimer St', 'York', 'PA', 'York County', '17404', NULL, 39.9743209, -76.7310899, 0, 1, '2018-03-27 11:29:46', '2018-03-27 11:29:46'),
+(51, 33, 'sell', '305 Hawk View Ct', 'Nashville', 'TN', 'Davidson County', '37207', NULL, 36.246713, -86.774194, 0, 1, '2018-03-28 09:19:56', '2018-03-28 09:19:56');
 
 -- --------------------------------------------------------
 
@@ -520,7 +576,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `property_images`
 --
 ALTER TABLE `property_images`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `property_info`

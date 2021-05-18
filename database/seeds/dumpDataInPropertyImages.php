@@ -11,6 +11,7 @@ class dumpDataInPropertyImages extends Seeder
      */
     public function run()
     {
+        DB::table('property_images')->truncate();
         $details = DB::table('property_location')->get();
         $images = false;
         foreach($details as $key => $detail) {
